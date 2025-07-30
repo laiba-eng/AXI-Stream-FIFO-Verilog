@@ -4,7 +4,7 @@ Verilog implementation of a parameterized AXI4-Stream FIFO with full handshaking
 # Features
 
 - **AXI4-Stream protocol compliant** (`tvalid`, `tready`, `tdata`, `tkeep`, `tstrb`, `tlast`, `tdest`, `tid`, `tuser`)
-- **Parameterized widths and depth** — `DATA_WIDTH`, `DEPTH`, `ID_WIDTH`, etc.
+- **Parameterized widths and depth** `DATA_WIDTH`, `DEPTH`, `ID_WIDTH`, etc.
 - **Synchronous operation** with a single clock (`aclk`) and active-low reset (`aresetn`)
 - **X-safe memory initialization** to prevent undefined simulation states
 - **Status signals**: `fifo_full`, `fifo_empty`, and `fifo_count`
